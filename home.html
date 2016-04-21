@@ -1,0 +1,163 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>脸帮</title>
+<link href="home.css" type="text/css" rel="stylesheet">
+<!--弹出框-->
+<script>
+	function showChild()
+	{   
+		   var ul1 = document.getElementById("a");   
+		   if (ul1.style.display == "block") 
+		   {   
+		   ul1.style.display = "none";   
+		   } else {   
+		   ul1.style.display = "block";   
+		   }   
+	} 
+</script>
+<!--这个script使得点击二维码显示大图-->
+
+<style>
+	#a{
+		position:absolute;
+		z-index:1;
+		margin-top:220px;
+		margin-left:34%;
+		background:#1e7bf5;
+		text-align:center;
+		padding:5px;
+		font-family:"微软雅黑";
+		color:#061c3a;
+		font-size:26px;
+	}
+</style>
+<!--这个style控制二维码大图的位置-->
+</head>
+
+<body>
+	<!-- 第一屏-->
+<div class="first">
+        <div class="first_title"> 
+        	<div id="navigation">       	
+                <div class="facehelp_logo"><img src="../../脸帮官网/切图/facehelp_logo.png"></div>
+                <div class="home_nav1">
+                    <ul>
+                        <li class="home_nav"> <a href="#">首页</a>	</li>
+                        <li class="home_nav">  <a href="about.html" >关于脸帮</a>	</li>
+                    </ul>
+                </div>
+             </div>
+    </div>
+<!--导航-->
+
+<div id="a" style=" display:none;">
+ 	<img src="../../脸帮官网/切图/微信二维码.jpg"><br>
+    扫描关注脸帮官方微信
+</div>
+<!--此处插入微信二维码大图-->
+        
+  <div class="first_content">
+  <br>
+      	<p>我的大学生活</p>
+        <div class="text2"><img src="../切图/与众不同.png"></div> 
+        	<div class="download">
+                <ul class="download1">
+                    <li > 
+                    <a href="https://itunes.apple.com/us/app/facehelp-lian-bang/id1061012451?mt=8" target="_blank"><img src="../../脸帮官网/切图/apple.png"  class="apple"></a></li>
+                    <li ><a href="http://android.myapp.com/myapp/detail.htm?apkName=com.sousou.com.facehelp" target="_blank"><img src="../../脸帮官网/切图/android.png" class="android"></a></li>
+                    <li button onclick="showChild()" ><a><img  src="../../脸帮官网/切图/wechat_code.png" class="wechat"></a></li>
+                </ul>
+        	</div>
+            <div class="show"><img class="mobile_show" src="../../脸帮官网/切图/mobile_show.png"></div>
+  </div>
+</div>
+<!--以上为第一屏内容-->
+    <!--以下为加入的特性-->
+    <div class="fun">
+        <ul class="func">
+                <li>
+                	<div class="fun1"><img src="../切图/help.png"> 
+                        <div class="help">有难必帮</div>
+                    </div>
+                </li>
+                 <li>
+                <div class="fun2"><img src="../切图/money.png">
+                    <div class="money">兼职赚钱</div>
+                </div>
+                </li>
+                <li>
+                <div class="fun3"><img src="../切图/safe.png">
+                    <div class="safe">安全可靠</div>
+            </div>
+            </li>
+        </ul>
+    </div>
+    <!--以上为第一页续-->
+    <!--发单-->
+<div class="feature1">
+	<div class="feature_content">
+           <div class="text">
+                <p class="text1">-  发单  -</p>
+                <p class="text2"> 实在太懒不想动~~<br><br>
+                发个任务，校友就来帮你忙  _(:зゝ∠)_
+                </p>
+            </div>
+            <div class="fadan"><img src="../../脸帮官网/切图/发单.png"></div>
+    </div>
+</div>
+
+
+	
+    <!--兼职-->
+<div class="feature2">
+    <div class="feature_content">
+        <div class="jiedan"><img src="../../脸帮官网/切图/接单.png"></div>
+       <div class="text">
+			<p class="text1">-  兼职  -</p>
+			<p class="text2"> 课业不忙，闲暇时间接个单<br><br>
+           能赚钱，还能多交朋友 <(*￣▽￣*)/_
+            </p>
+    </div>
+    </div>
+</div>
+
+    <!--提现-->
+    
+ <div class="feature3">
+ 	<div class="feature_content">
+       <div class="text">
+			<p class="text1">-  提现  -</p>
+			<p class="text2"> 账户余额满二十即可提现<br><br>
+        这周饭钱有啦   (/≧▽≦)/
+            </p>
+       </div>
+       <div class="tixian"><img src="../切图/提现.png"></div>
+    </div>
+</div>
+
+    <!--尾部-->
+<div class="foot">
+    	<div class="foot_content">
+        	<div class="text">扫码下载</div>
+        	<div class="foot_img">
+            	<img src="../../脸帮官网/切图/apple_logo.png">
+                <img height="148px" width="148px" src="../../脸帮官网/切图/苹果二维码.png">
+                <img src="../../脸帮官网/切图/andorid-logo.png">
+            </div>
+        </div><!--扫码下载-->
+        
+        <hr>
+  <div class="foot_subnav">
+  			<a href="#">首页</a>
+            <a href="about.html">关于脸帮</a>
+        	<div class="accredit">
+        	  <p>成都脸帮网络科技有限公司&copy;2015 All Rights Reserved.</p>
+        	  <p>陕ICP备13005858号-2</p>
+        	</div>
+  </div><!--底部导航-->
+</div>
+<!--<embed src="../../脸帮官网/资源/Ingrid Michaelson - Everybody - Original.mp3"  volume="3" height="0" width="0" >--><!--此处为背景音乐-->
+</body>
+</html>

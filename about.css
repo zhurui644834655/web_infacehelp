@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0px;
+	font-family: "微软雅黑";
+	color: #333333;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+
+}
+body{
+		background-color:#eeeeee;
+}
+a{text-decoration:none;
+}
+a:link,a:visited{
+	color:#555555;
+}
+a:hover{
+	color:#1e7bf5;
+}
+a[href="#"]{
+	color:#1e7bf5;
+}
+/*以上为全局属性*/
+	
+/*以下为导航*/
+
+.about{ 
+	margin:0px;
+	height:900px;
+	width:100%;
+	background-color:#edeeee;
+}
+.about_title{
+	width:100%;
+	height:70px;
+	background-color:rgb(255,255,255);
+	line-height:70px;
+}
+#navigation{
+	width:1190px;
+	height:70px;
+	margin:0px auto;
+}
+.facehelp_logo{
+	float:left;
+	margin:10px 10px;
+	margin-left:8px;
+}
+.about_nav1{
+	float:right;
+}
+.about_nav1 ul{
+	list-style-type:none;
+	margin-right:-10px;
+}
+li.about_nav{
+	display:inline;
+	font-family:微软雅黑;
+	font-size:16px;
+	font-weight:bold;
+	color:#555555;
+	margin:auto 20px;
+	}
+li.about_nav a[href="#"]{
+	box-shadow:0px 2px 0px #1e7bf5;
+}
+/*以上为导航*/
+
+/*以下为内容区域*/
+.about_content{
+	width: 1190px;
+	height: 800px;
+	margin: 0px auto;
+	padding:60px;
+	box-sizing:border-box; /*此属性避免了增加内边距属性时边框的变化*/
+	word-wrap: normal;
+	}
+.about_content h1{
+	font-size:36px;
+	font-weight:normal;
+	margin:20px;
+	color:#555555;
+}
+.about_content p{
+	font-size:24px;
+	font-weight:normal;
+	margin:20px;
+	color:#555555;
+}
+.test{
+	font-size:30px;
+	font-family:"迷你简硬笔楷书";
+	margin-right:60px;
+	margin-top:40px;
+	margin-left:600px;
+	margin-bottom:20px;
+	}
+	
+/*以下为三个二维码*/
+.wechat_code{
+	float:left;
+	text-align:center;
+	margin-left:20px;
+}
+.ios_code{
+	float:right;
+	text-align:center;
+	margin:0px 20px;
+}
+.andorid_code{
+	float:right;
+	text-align:center;
+	margin:0px 40px;
+}
+
+
+/*以下为导航*/
+hr{
+	width:66.6%;
+	margin:auto;
+	color:#aaa;
+}
+.foot_subnav{
+	width: 1190px;
+	height: 100px;
+	margin: 10px auto;
+	text-align:center;
+	font-size:16px;
+	}
+.foot_subnav a{
+	color:#aaaaaa;
+	margin-right:40px;
+}
+.accredit p{
+	margin:10px;
+	color:#aaaaaa;
+	line-height:20px;
+	font-size:16px;
+}

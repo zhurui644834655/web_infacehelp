@@ -1,0 +1,348 @@
+﻿@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 微软雅黑;
+	color: #333333;
+	width: auto;
+}
+
+a{text-decoration:none;
+}
+a:link,a:visited{
+	color:#555555;
+}
+a:hover{
+	color:#1e7bf5;
+}
+
+a[href="#"]{
+	color:#1e7bf5;
+}
+
+/*以上为全部属性*/
+
+.first{ 
+	margin:0px;
+	height:950px;
+	width:100%;
+	background-color:#edeeee;
+	background-image:url(../%E5%88%87%E5%9B%BE/first_background.png);
+	background-size:cover;
+	overflow:hidden;/*此属性将第一屏超出的图像隐藏*/
+}
+.first_title{
+	width:100%;
+	height:70px;
+	background-color:rgb(255,255,255);
+	line-height:70px;
+}
+#navigation{
+	width:1190px;
+	height:70px;
+	margin:0px auto;
+}
+.facehelp_logo{
+	float:left;
+	margin:10px 10px;
+	margin-left:8px;
+}
+.home_nav1{
+	float:right;
+}
+.home_nav1 ul{
+	list-style-type:none;
+	margin-right:-10px;
+}
+li.home_nav{
+	display:inline;
+	font-family:微软雅黑;
+	font-size:16px;
+	font-weight:bold;
+	color:#555555;
+	margin:auto 20px;
+	}
+li.home_nav a[href="#"]{
+	box-shadow:0px 2px 0px #1e7bf5;
+}
+	/*以上为导航栏样式*/
+	
+	
+.first_title .shadow{
+	position:absolute;
+	top:70px;
+	right:465px;
+}
+	
+.first_content{
+	width: 80%;
+	height:100%;
+	margin: 0px auto;
+	text-align: center;
+	background:url(../%E5%88%87%E5%9B%BE/filter.png);
+	background-size:cover;
+}
+.first_content p{
+	margin-top:20px;
+	font-size:48px;
+	font-weight:normal;
+	color:#555555;
+}
+
+.first_content .text2{
+	margin-top:0px;
+	margin-bottom:30px;
+}
+.download{
+	margin: 0px auto;
+	margin-top:10px;
+	margin-bottom: 40px;
+
+}
+.download ul{
+	list-style-type: none;
+	text-align: center;
+}
+.download li{
+		display:inline;
+}
+.download li img{
+	margin: 0px 25px;
+	border-width:3px;
+	border-color:rgba(255,255,255,0);
+	border-style:solid;
+	border-radius:120px;
+
+}
+.download li .wechat{
+	mix-blend-mode: multiply;
+
+}
+.download1 img:hover{
+	border-width:3px;
+	border-style:solid;
+
+	}
+.download1 img:hover{
+	border:3px #1e7bf5 solid;
+}
+
+div .show{
+	margin-top:-50px;
+}
+div .show .mobile_show{
+	width:500px;
+	height:460px;
+}
+	
+
+/*以上为第一屏*/
+
+/*以下为功能fun*/
+.fun{
+	height: 450px;
+	width: 100%;
+	background-color: #fcfcfc;
+	margin: 0px auto;
+	box-sizing:border-box;
+}
+.fun ul{
+	padding-top:100px;/*顶部间距*/
+	text-align: center;
+	list-style-type: none;
+}
+.func li{
+	display: inline-block;/*控制三个li标签水平居中*/
+	margin:0px 40px;
+}
+.fun .fun1{
+	height:auto;
+}
+
+.fun .fun1 .help{
+	color:#f73e3e;
+	font-size:36px;
+	margin:20px;
+}
+.fun .fun2{
+	width:200px;
+	height:auto;
+	margin-left:20px;
+	margin-right:20px;
+	padding-top:20px;
+}
+.fun .fun2 .money{
+	color:#ff8800;
+	font-size:36px;
+	margin:20px;
+}
+.fun .fun3{
+	width:200px;
+	height:auto;
+	margin-left:20px;
+	margin-right:20px;
+	padding-top:20px;
+}
+.fun .fun3 .safe{
+	color:#3ab718;
+	font-size:36px;
+	margin:20px;
+}
+
+	/*以下为控制整个feature 页面的居中显示*/
+.feature_content{
+	width:1190px;
+	height:900px;
+	margin:0px auto ;
+	}
+	/*以上为控制整个feature 页面的居中显示*/
+	
+/*以上为功能fun*/
+
+.feature1{
+	width:100%;
+	height:900px;
+	z-index:1;
+	background:#fff;
+	overflow:hidden;
+}
+
+
+.fadan{
+	float:left;
+	margin-left:60px;
+	margin-top:150px;
+}
+.feature1 .text{
+	margin-top:300px;
+	margin-left:80px;
+	float:left;
+}
+.feature1 .text1{
+	font-size:60px;
+}
+.feature1 .text2{
+	font-size: 30px;
+	margin-top: 60px;
+}
+/*以上为发单*/
+.feature2{
+	width:100%;
+	height:900px;
+	background:#fdfaee;
+	overflow:hidden;
+}
+
+.jiedan{
+	float:left;
+	margin-left:40px;
+	margin-top:120px;
+}
+.feature2 .text{
+	margin-top: 300px;
+	margin-left: 60px;
+	float: left;
+	text-align:right;
+
+	
+}
+.feature2 .text1{
+	font-size:60px;	
+	color:#ffa900;
+	
+}
+.feature2 .text2{
+	font-size: 30px;
+	margin-top: 60px;
+	color:#ffa900;
+
+}
+
+/*以上为接单*/
+
+.feature3{
+	width:100%;
+	height:900px;
+	background:#fafeff;
+	overflow:hidden;
+}
+.feature3 .text{
+	float:left;
+	margin-top:300px;
+	margin-left:60px;
+
+}
+.tixian{
+	float:left;
+	margin-left:200px;
+	margin-top:150px;
+}
+
+.feature3 .text1{
+	font-size:60px;
+	color:#07a6ea;
+}
+.feature3 .text2{
+	font-size: 30px;
+	margin-top: 60px;
+	color:#07a6ea;
+}
+
+/*以上为提现*/
+
+/*以下底部栏*/
+.foot{
+	margin:0px;
+	width:100%;
+	height:430px;
+	background-color:#eee;
+	overflow:hidden;/*这个属性避免了下一及div顶部margin失效*/
+	}
+.foot_content{
+	width:1190px;
+	height:280px;
+	margin:10px auto 10px;
+	}
+	
+.foot_content .text{
+	text-align:center;
+	font-size:30px;
+	margin:15px auto;
+	color:#333333;
+	vertical-align:central;
+}
+.foot_img{
+	text-align:center;
+	margin-bottom:30px;
+	margin-top:40px;
+}
+.foot_img img{
+	margin:0 40px;
+	vertical-align:middle;
+}
+
+
+/*以下为底部栏*/
+hr{
+	width:66.6%;
+	margin:auto;
+	color:#aaa;
+}
+.foot_subnav{
+	width: 1190px;
+	height: 100px;
+	margin: 10px auto;
+	text-align:center;
+	font-size:16px;
+	}
+.foot_subnav a{
+	color:#aaaaaa;
+	margin-right:40px;
+}
+.accredit p{
+	margin:10px;
+	color:#aaaaaa;
+	line-height:20px;
+	font-size:16px;
+}
